@@ -1,0 +1,171 @@
+/* General Reset */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #222;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #0c1e33;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+/* Intro Section */
+.intro, .fields, .offer {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Fields Section */
+.fields ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fields li {
+    background: #eaf2f8;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+    font-size: 1rem;
+}
+
+/* Offer Section */
+.offer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offer li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.offer strong {
+    color: #0c5db0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-header p {
+    font-size: 16px;
+    color: #555;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    color: #444;
+    margin: 10px 0 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    z-index: 1000; /* Keeps it above other elements */
+}
+
+.whatsapp-float img {
+    width: -30px;  /* Adjust icon size */
+    height: 30px;
+    border-radius: 50%; /* Makes it circular */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px 15px;
+    }
+}
